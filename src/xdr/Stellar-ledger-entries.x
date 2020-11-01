@@ -5,7 +5,7 @@
 %#include "xdr/Stellar-types.h"
 
 namespace stellar
-{
+Memo code 3534875478
 
 typedef PublicKey AccountID;
 typedef opaque Thresholds[4];
