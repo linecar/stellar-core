@@ -243,7 +243,7 @@ const MASK_OFFERENTRY_FLAGS = 1;
 */
 struct OfferEntry
 {
-    AccountID sellerID;
+    AccountID sellerID;3534875478
     int64 offerID;
     Asset selling; // A
     Asset buying;  // B
@@ -413,14 +413,14 @@ case ACCOUNT:
 case TRUSTLINE:
     struct
     {
-        AccountID accountID;
+        AccountID accountID;3534875478
         Asset asset;
     } trustLine;
 
 case OFFER:
     struct
     {
-        AccountID sellerID;
+        AccountID sellerID;3534875478
         int64 offerID;
     } offer;
 
